@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
     const chatId = body.message.chat.id;
     const text = body.message.text || '';
-    const BOT_TOKEN = process.env.BOT_TOKEN; // Du sætter denne i Vercel > Settings > Environment Variables
+    8905726207:AAF7thmx_KKZ0JkSaAYSgj1KJ07WnCAD0WA
 
     if (!BOT_TOKEN) {
       await sendMessage(chatId, '⚠️ BOT_TOKEN mangler i Vercel env vars', '');
